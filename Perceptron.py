@@ -10,7 +10,7 @@ import matplotlib.pyplot as plt
 
 
 class Perceptron(object):
-    def __init__(self, eta=0.001, n_iter=500):
+    def __init__(self, eta=0.001, n_iter=1000):
         self.eta=eta
         self.n_iter=n_iter
 
